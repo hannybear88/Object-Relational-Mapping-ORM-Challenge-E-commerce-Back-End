@@ -39,6 +39,14 @@ router.get('/:id', (req, res) => {
 
   }).then(ProductTag => res.json(ProductTag))
 
+  // .then(productData => {
+  //   if (!productData) {
+  //     res.status(404).json({ message: "We could not find this product." })
+  //     return
+  //   }
+  //   res.json(productData)
+  // })
+
   .catch(err => res.status(400).json(err))
 
 });
@@ -128,5 +136,18 @@ router.delete('/:id', (req, res) => {
   .catch(err => res.status(400).json(err))
 
 });
+
+
+// Product.destroy({ where: { id: req.params.id } })
+//     .then(productData => {
+//       if (!productData)
+//         return res
+//           .status(404)
+//           .json({ message: "We could not find this product." })
+//       else
+//         res
+//           .status(200)
+//           .json({ message: `This product has been successfully deleted.` })
+//     })
 
 module.exports = router;

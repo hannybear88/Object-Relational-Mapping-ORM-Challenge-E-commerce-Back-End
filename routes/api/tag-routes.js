@@ -35,6 +35,14 @@ router.get('/:id', (req, res) => {
       }
     ],
 
+      // .then((tagData) => {
+  //   if (!tagData) {
+  //     res.status(404).json({ message: "We could not find this tag." });
+  //     return;
+  //   }
+  //   res.json(tagData);
+  // })
+
   }).then(singleTag => res.json(singleTag))
 
   .catch(err => res.status(400).json(err))
@@ -47,6 +55,15 @@ router.post('/', (req, res) => {
 
   .then(createdTag => res.json(createdTag))
 
+//   .then((tagData) => {
+//     if (!tagData) {
+//       res.status(404).json({ message: 'We could not find this tag.' });
+//       return;
+//     }
+//     res.status(200).json({ message: `The tag ${req.body.tag_name} has been successfully added.` })
+//   })
+//   .catch((err) => res.status(500).json(err));
+// });
   .catch(err => res.status(400).json(err))
 
 });
@@ -63,6 +80,13 @@ router.put('/:id', (req, res) => {
 
 });
 
+// Tag.update(req.body, {
+//   where: { id: req.params.id }
+// })
+// .then(() => res.status(200).json({ message: `Tag ${req.params.id}'s name has been successfully changed to ${req.body.tag_name}.` }))
+// .catch(err => res.status(500).json(err));
+// });
+
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
   Tag.destroy({
@@ -73,6 +97,13 @@ router.delete('/:id', (req, res) => {
 
   .catch(err => res.status(400).json(err))
 
+  // .then((tagData) => {
+  //   if (!tagData) {
+  //     res.status(404).json({ message: "We could not find this tag." });
+  //     return;
+  //   }
+  //   res.status(200).json({ message: `Tag ${req.params.id} has been successfully deleted.` });
+  // })
 });
 
 module.exports = router;
