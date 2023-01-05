@@ -284,7 +284,7 @@ Please [click here](https://youtu.be/Du7ppQs5wes) for a walkthrough video that d
 
 
 Screenshots
-- TAGS 
+**TAGS**
 
 * GET all tags 
 ![Get all tags](assets/images/GET_all_tags_screenshot.png)
@@ -307,7 +307,7 @@ Screenshots
 * DELETE tag by id
 ![DELETE tag by id](assets/images/DELETE_tag_by_id_screenshot.png)
 
-- PRODUCTS
+**PRODUCTS**
 
 * GET all products
 ![GET all products](/assets/images/GET_all_products_screenshot.png)
@@ -330,7 +330,7 @@ Screenshots
 * DELETE product by id
 ![DELETE product by id](/assets/images/DELETE_product_by_id_screenshot.png)
 
-- CATEGORIES 
+**CATEGORIES**
 
 * GET all categories
     ![GET all categories](/assets/images/GET_all_categories_screenshot.png)
