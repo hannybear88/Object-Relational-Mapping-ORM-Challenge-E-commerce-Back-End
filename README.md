@@ -242,104 +242,80 @@ Your database should contain the following four models, including the requiremen
 
 Walkthrough Video
 
-Please [click here](link here) for a walkthrough video that demonstrates the application's functionality.
+Please [click here](https://youtu.be/Du7ppQs5wes) for a walkthrough video that demonstrates the application's functionality.
 
 
 Screenshots
-<!-- * GET all tags 
-![Get all tags](assets/images/View_All_Departments_Screenshot.png)
+- TAGS 
+
+* GET all tags 
+![Get all tags](assets/images/GET_all_tags_screenshot.png)
 
 * GET one tag by id
-![GET one tag by id](assets/images/View_All_Roles_Screenshot.png)
+![GET one tag by id](assets/images/GET_one_tag_by_id_screenshot.png)
 
 * CREATE new tag
-![CREATE new tag](assets/images/View_All_Employees_Screenshot.png)
+![CREATE new tag](assets/images/CREATE_new_tag_screenshot.png)
+
+* CREATE one tag by id after creating new tag
+![CREATE one tag by id after creating new tag](assets/images/GET_one_tag_by_id_after_creating_new_tag_screenshot.png)
 
 * UPDATE tag by id
-![UPDATE tag by id](/assets/images/View_All_Employees_By_Manager_Screenshot.png)
+![UPDATE tag by id](/assets/images/UPDATE_tag_by_id.png)
+
+* GET one tag by id after updating new tag 
+![GET one tag by id after updating new tag ](/assets/images/GET_one_tag_by_id_after_updating_new_tag_screenshot.png)
 
 * DELETE tag by id
-![DELETE tag by id](assets/images/View_All_Employees_By_Department_Screenshot.png)
+![DELETE tag by id](assets/images/DELETE_tag_by_id_screenshot.png)
+
+- PRODUCTS
 
 * GET all products
-![GET all products](/assets/images/Add_a_Department_Screenshot.png)
+![GET all products](/assets/images/GET_all_products_screenshot.png)
 
 * GET one product by id
-![GET one product by id](/assets/images/View_All_Departments_After_Adding_a_Department_Screenshot.png)
+![GET one product by id](/assets/images/GET_one_product_by_id_screenshot.png)
 
 * CREATE new product
-![CREATE new product](/assets/images/Add_a_Role_Screenshot.png)
+![CREATE new product](/assets/images/CREATE_new_product_screenshot.png)
+
+* CREATE one product by id after creating new product
+![CREATE one tag by id after creating new tag](assets/images/GET_one_product_by_id_after_creating_new_product_screenshot.png)
 
 * UPDATE product by id
-![UPDATE product by id](/assets/images/View_All_Roles_After_Adding_a_Role_Screenshot.png)
+![UPDATE product by id](/assets/images/UPDATE_product_by_id.png)
+
+* GET one product by id after updating new product
+![GET one tag by id after updating new tag ](/assets/images/GET_one_product_by_id_after_updating_new_product_screenshot.png)
 
 * DELETE product by id
-![DELETE product by id](/assets/images/Add_an_Employee_Screenshot.png)
+![DELETE product by id](/assets/images/DELETE_product_by_id_screenshot.png)
+
+- CATEGORIES 
 
 * GET all categories
-    ![GET all categories](/assets/images/View_All_Employees_After_Adding_an_Employee_Screenshot.png)
+    ![GET all categories](/assets/images/GET_all_categories_screenshot.png)
 
-* ET one category by id
-![GET one category by id](assets/images/Update_an_Employee_Role_Screenshot.png)
+* GET one cateogry by id
+    ![GET one category by id](/assets/images/GET_one_category_by_id_screenshot.png)
 
 * CREATE new category
-![CREATE new category](/assets/images/View_All_Employees_Updating_Role_Screenshot.png)
+![CREATE new category](/assets/images/CREATE_new_category_screenshot.png)
+
+* CREATE one category by id after creating new category
+![CREATE one tag by id after creating new tag](assets/images/GET_one_category_by_id_after_creating_new_category_screenshot.png)
+
 
 * UPDATE category by id
-![UPDATE category by id](/assets/images/Update_an_Employee_Manager.png)
+![UPDATE category by id](/assets/images/UPDATE_category_by_id.png)
+
+* GET one category by id after updating new category
+![GET one tag by id after updating new tag ](/assets/images/GET_one_category_by_id_after_updating_new_category_screenshot.png)
 
 * DELETE category by id
-![DELETE category by id](/assets/images/View_All_Employees_After_Updating_Employee_Manager_Screenshot.png)
+![DELETE category by id](/assets/images/DELETE_category_by_id_screenshot.png)
 
-
-**Remove Department**
-![Remove Department](/assets/images/Remove_Department_Screenshot.png)
-
-* View All Departments After Removing a Department
-![View All Departments After Removing a Department](/assets/images/View_All_Departments_After_Removing_Department_Screenshot.png)
-
-
-**Remove Role**
-![Remove Role](/assets/images/Remove_a_Role_Screenshot.png)
-
-* View All Roles After Removing a Role
-![View All Roles After Removing a Role](/assets/images/View_All_Roles_After_Removing_Role_Screenshot.png)
-
-**Remove Employee**
-![Remove Employee](/assets/images/Remove_Employee_Screenshot.png)
-
-
-* View All Employees After Removing an Employee
-![View All Employees After Removing an Employee](/assets/images/View_All_Employees_After_Removing_an_Employee_Screenshot.png)
-
-**View the Total Utilized Budget of a Department**
-
-* HR
-![View the Total Utilized Budget of a Department ](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_HR_Screenshot.png)
-
-* Engineering
-![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Engineering_Screenshot.png)
-
-* Sales
-![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Sales_Screenshot.png)
-
-* Finance
-![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Finance_Screenshot.png)
-
-* Legal
-![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Legal_Screenshot.png)
-
-* IT
-![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_IT_Screenshot.png)
-
-* Fashion
-![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Fashion_Screenshot.png)
-
-* Corporate
-![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Corporate_Screenshot.png)
-
-**Exit**
-![Exit](/assets/images/Goodbye_Screenshot.png) -->
 
 ## Technologies Used
 
