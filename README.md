@@ -19,8 +19,26 @@ HW Challenge #13
 
 
 ## Installation
+The steps to installation are shown below:
 
+- First, clone the repo
+- Install all dependencies `npm install`
+- Set up the environment variables
+    * create an .env folder
+    * make sure to have the information listed below
+        * DB_NAME = 'ecommerce_db'
+        * DB_USER = ''
+        * DB_PASSWORD = ''
+- Create database
+    * `mysql -u root -p`
+    * my sql > `.db/schema.sql`
+    * my sql > `quit`
+- Seed the database (this is optional)
+    * `npm run seed`
+- Run the application
+    *  `npm start`
 ## Getting Started
+
 You'll need to use the [MySQL2package](https://www.npmjs.com/package/mysql2) and [Sequalize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) to use environment variables to store sensitive data, like your MySQL username, password, and database name. Use the ```schema.sql``` file in the ```db``` folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
 
 - Database Models
@@ -177,10 +195,67 @@ Your database should contain the following four models, including the requiremen
 - THEN I am able to successfully create, update, and delete data in my database
 
 ## Usage
+- While the server is still running, it is ready for any REST client to make the API calls.
+- Even though the front end was in included in this challenge assignment, the APIs can be called by using a REST client of your choice (for example Postman or Insomnia). 
+    * TAGS
+        * GET all tags
+            * GET 
+        * GET one tag by id
+            * GET
+        * CREATE new tag
+            * POST
+            * The JSON body request should look like below: 
+        * UPDATE tag by id
+            * PUT
+            * The JSON body request should look like below: 
+        * DELETE tag by id
+            * DELETE
+    * PRODUCTS
+        * GET all products
+            * GET
+        * GET one product by id
+            * GET 
+        * CREATE new product
+            * POST
+            * The JSON body request should look like below: 
+        * UPDATE product by id
+            * PUT 
+            * The JSON body request should look like below: 
+        * DELETE products by id
+            * DELETE
+    * CATEGORIES
+        * GET all categories
+            * GET
+        * GET one category by id
+            * GET
+        * CREATE new category
+            * POST
+            * The JSON body request should look like below: 
+        * UPDATE category by id
+            * PUT
+            * The JSON body request should look like below: 
+        * DELETE category by id
+            * DELETE
+    
 
 ## Demo
 
+Walkthrough Video
+
+Please [click here](link here) for a walkthrough video that demonstrates the application's functionality.
+
+
+Screenshots
 ## Technologies Used
+
+![Technologies](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Technologies](https://img.shields.io/badge/-JSON-blue)
+![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
+![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
+![Technologies](https://img.shields.io/badge/Express-green)
+![Technologies](https://img.shields.io/badge/Sequalize-blue)
+![Technologies](https://img.shields.io/badge/SQL2-orange)
+![Technologies](https://img.shields.io/badge/Insomnia-purple)
 
 ## Support
 If you need support or have any questions about the repo, please [open an issue](https://github.com/hannybear88/Node.js-Challenge-Professional-README-Generator/issues) or contact me via email at hannahkchung88@gmail.com. You can find more of my work on my GitHub, [hannybear88](https://github.com/hannybear88/).
