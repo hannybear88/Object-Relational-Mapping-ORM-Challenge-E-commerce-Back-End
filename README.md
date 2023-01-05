@@ -3,13 +3,13 @@ HW Challenge #13
 
 
 ## Description
-
+Our challenge for this assignment was build the back end for an e-commerce site. We’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database. This assignment was quite challenging. Although also very helpful for future work. It was extremely helpful being provided starter code. 
 
 ## Table of Contents
 * [Installation](#installation)
 * [Getting Started](#Getting-Started)
 * [User Story](#User-Story)
-* [How to Use This Project and Acceptance Criteria](#How-to-Use-This-Project-and-Acceptance-Criteria)
+* [Acceptance Criteria](#Acceptance-Criteria)
 * [Usage](#Usage)
 * [Demo](#Demo)
 * [Technologies Used](#Technologies-Used)
@@ -181,7 +181,7 @@ Your database should contain the following four models, including the requiremen
 - I WANT a back end for my e-commerce website that uses the latest technologies
 - SO THAT my company can compete with other e-commerce companies
 
-## How to Use This Project and Acceptance Criteria
+## Acceptance Criteria
 - GIVEN a functional Express.js API
 - WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
 - THEN I am able to connect to a database using Sequelize
@@ -246,6 +246,101 @@ Please [click here](link here) for a walkthrough video that demonstrates the app
 
 
 Screenshots
+<!-- * GET all tags 
+![Get all tags](assets/images/View_All_Departments_Screenshot.png)
+
+* GET one tag by id
+![GET one tag by id](assets/images/View_All_Roles_Screenshot.png)
+
+* CREATE new tag
+![CREATE new tag](assets/images/View_All_Employees_Screenshot.png)
+
+* UPDATE tag by id
+![UPDATE tag by id](/assets/images/View_All_Employees_By_Manager_Screenshot.png)
+
+* DELETE tag by id
+![DELETE tag by id](assets/images/View_All_Employees_By_Department_Screenshot.png)
+
+* GET all products
+![GET all products](/assets/images/Add_a_Department_Screenshot.png)
+
+* GET one product by id
+![GET one product by id](/assets/images/View_All_Departments_After_Adding_a_Department_Screenshot.png)
+
+* CREATE new product
+![CREATE new product](/assets/images/Add_a_Role_Screenshot.png)
+
+* UPDATE product by id
+![UPDATE product by id](/assets/images/View_All_Roles_After_Adding_a_Role_Screenshot.png)
+
+* DELETE product by id
+![DELETE product by id](/assets/images/Add_an_Employee_Screenshot.png)
+
+* GET all categories
+    ![GET all categories](/assets/images/View_All_Employees_After_Adding_an_Employee_Screenshot.png)
+
+* ET one category by id
+![GET one category by id](assets/images/Update_an_Employee_Role_Screenshot.png)
+
+* CREATE new category
+![CREATE new category](/assets/images/View_All_Employees_Updating_Role_Screenshot.png)
+
+* UPDATE category by id
+![UPDATE category by id](/assets/images/Update_an_Employee_Manager.png)
+
+* DELETE category by id
+![DELETE category by id](/assets/images/View_All_Employees_After_Updating_Employee_Manager_Screenshot.png)
+
+
+**Remove Department**
+![Remove Department](/assets/images/Remove_Department_Screenshot.png)
+
+* View All Departments After Removing a Department
+![View All Departments After Removing a Department](/assets/images/View_All_Departments_After_Removing_Department_Screenshot.png)
+
+
+**Remove Role**
+![Remove Role](/assets/images/Remove_a_Role_Screenshot.png)
+
+* View All Roles After Removing a Role
+![View All Roles After Removing a Role](/assets/images/View_All_Roles_After_Removing_Role_Screenshot.png)
+
+**Remove Employee**
+![Remove Employee](/assets/images/Remove_Employee_Screenshot.png)
+
+
+* View All Employees After Removing an Employee
+![View All Employees After Removing an Employee](/assets/images/View_All_Employees_After_Removing_an_Employee_Screenshot.png)
+
+**View the Total Utilized Budget of a Department**
+
+* HR
+![View the Total Utilized Budget of a Department ](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_HR_Screenshot.png)
+
+* Engineering
+![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Engineering_Screenshot.png)
+
+* Sales
+![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Sales_Screenshot.png)
+
+* Finance
+![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Finance_Screenshot.png)
+
+* Legal
+![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Legal_Screenshot.png)
+
+* IT
+![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_IT_Screenshot.png)
+
+* Fashion
+![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Fashion_Screenshot.png)
+
+* Corporate
+![View the Total Utilized Budget of a Department](assets/images/View_the_Total_Utilized_Budget_of_a_%20Department_Corporate_Screenshot.png)
+
+**Exit**
+![Exit](/assets/images/Goodbye_Screenshot.png) -->
+
 ## Technologies Used
 
 ![Technologies](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -261,7 +356,9 @@ Screenshots
 If you need support or have any questions about the repo, please [open an issue](https://github.com/hannybear88/Node.js-Challenge-Professional-README-Generator/issues) or contact me via email at hannahkchung88@gmail.com. You can find more of my work on my GitHub, [hannybear88](https://github.com/hannybear88/).
 
 ## Credits
+- Starter code provided by UCSD
 - Code by Hannah Chung
 
 ## Contributors
+- Starter code provided by UCSD
 - Code by Hannah Chung
