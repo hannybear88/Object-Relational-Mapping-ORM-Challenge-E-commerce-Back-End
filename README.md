@@ -369,6 +369,7 @@ Screenshots
 
 ## Support
 
+If you need support or have any questions about the repo, please [open an issue](https://github.com/hannybear88/Object-Relational-Mapping-ORM-Challenge-E-commerce-Back-End/issues) or contact me via email at hannahkchung88@gmail.com. You can find more of my work on my GitHub, [hannybear88](https://github.com/hannybear88/).
 
 ## Credits
 - Starter code provided by UCSD
