@@ -38,6 +38,7 @@ The steps to installation are shown below:
     * `npm run seed`
 - Run the application
     *  `npm start`
+
 ## Getting Started
 
 You'll need to use the [MySQL2package](https://www.npmjs.com/package/mysql2) and [Sequalize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) to use environment variables to store sensitive data, like your MySQL username, password, and database name. Use the ```schema.sql``` file in the ```db``` folder to create your database using MySQL shell commands. Use environment variables to store sensitive data, like your MySQL username, password, and database name.
@@ -175,12 +176,6 @@ Your database should contain the following four models, including the requiremen
 
     * Sync Sequelize to the Database on Server Start
     Create the code needed in ```server.js``` to sync the Sequelize models to the MySQL database on server start.
-
-
-## Getting Started
-
-
-
 
 ## User Story
 - AS A manager at an internet retail company
