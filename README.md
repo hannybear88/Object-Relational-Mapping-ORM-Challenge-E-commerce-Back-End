@@ -3,7 +3,7 @@ HW Challenge #13
 
 
 ## Description
-
+Our challenge for this assignment was build the back end for an e-commerce site. We’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database. This assignment was quite challenging. Although also very helpful for future work. It was extremely helpful being provided starter code. You can [click here](https://github.com/hannybear88/Object-Relational-Mapping-ORM-Challenge-E-commerce-Back-End) to see my code for this project.
 
 ## Table of Contents
 * [Installation](#installation)
