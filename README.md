@@ -197,6 +197,85 @@ Your database should contain the following four models, including the requiremen
 
 ## Usage
 
+- While the server is still running, it is ready for any REST client to make the API calls.
+- Even though the front end was in included in this challenge assignment, the APIs can be called by using a REST client of your choice (for example Postman or Insomnia). 
+    * TAGS
+        * GET all tags
+            *  http://localhost:8003/api/tags
+        * GET one tag by id
+            * GET http://localhost:8003/api/tags/:id
+        * CREATE new tag
+            * POST http://localhost:8003/api/tags
+            * The JSON body request should look like below: 
+            `````
+            {
+	          "tag_name": "purple"
+            }
+            `````
+        * UPDATE tag by id
+            * PUT http://localhost:8003/api/tags/:id
+            * The JSON body request should look like below: 
+            `````
+            {
+	         "tag_name": "light purple"
+            }
+            `````
+        * DELETE tag by id
+            * DELETE http://localhost:8003/api/tags/:id
+    * PRODUCTS
+        * GET all products
+            * GET http://localhost:8003/api/products
+        * GET one product by id
+            * GET http://localhost:8003/api/products/:id
+        * CREATE new product
+            * POST http://localhost:8003/api/products
+            * The JSON body request should look like below: 
+            `````
+            {
+	         "product_name": "boots",
+	         "price": 100.00,
+	         "stock": 10,
+	         "category_id": 5,
+	         "tagIds": [6,7]
+            }
+            `````
+        * UPDATE product by id
+            * PUT http://localhost:8003/api/products/:id
+            * The JSON body request should look like below: 
+            `````
+            {
+	         "product_name": "steel toed boots",
+	         "price": 150.00,
+	         "stock": 20,
+	         "category_id": 5,
+	         "tagIds": [6,7]
+            }
+            `````
+        * DELETE products by id
+            * DELETE http://localhost:8003/api/products/:id
+    * CATEGORIES
+        * GET all categories
+            * GET http://localhost:8003/api/categories
+        * GET one category by id
+            * GET http://localhost:8003/api/categories/:id
+        * CREATE new category
+            * POST http://localhost:8003/api/categories
+            * The JSON body request should look like below: 
+            `````
+            {
+	         "category_name": "sweater"
+            }
+            `````
+        * UPDATE category by id
+            * PUT http://localhost:8003/api/categories/:id
+            * The JSON body request should look like below: 
+            `````
+            {
+	         "category_name": "sweater vest"
+            }
+            `````
+        * DELETE category by id
+            * DELETE http://localhost:8003/api/categories/:id
 
 ## Demo
 
