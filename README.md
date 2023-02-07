@@ -281,7 +281,8 @@ Your database should contain the following four models, including the requiremen
 
 Walkthrough Video
 
-Please [click here](link here) for a walkthrough video that demonstrates the application's functionality.
+Please [click here](
+https://www.youtube.com/watch?v=t5phnogfH_chttps://www.youtube.com/watch?v=t5phnogfH_c) for a walkthrough video that demonstrates the application's functionality.
 
 
 Screenshots
